@@ -206,4 +206,41 @@ nav a{display:block;margin:15px 0;}
 
 }
 
+/* ===== COBERTURAS CLINICA TOP ===== */
+
+.coberturas{
+padding:70px 6%;
+text-align:center;
+background:#f7fafc;
+}
+
+.coberturas-text{
+margin-top:10px;
+margin-bottom:40px;
+opacity:.8;
+}
+
+.coberturas-logos{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+align-items:center;
+gap:50px;
+}
+
+.coberturas-logos img{
+height:48px;
+object-fit:contain;
+filter:grayscale(100%);
+opacity:.85;
+transition:.3s;
+}
+
+.coberturas-logos img:hover{
+filter:none;
+opacity:1;
+transform:scale(1.05);
+}
+
+
 
