@@ -11,7 +11,7 @@ color:#1a2b3c;
 position:fixed;
 bottom:22px;
 right:22px;
-background:#25D366;
+background:#146d0e;
 width:60px;
 height:60px;
 border-radius:50%;
@@ -82,7 +82,7 @@ margin-bottom:15px;
 .hero-btn{
 display:inline-block;
 margin-top:20px;
-background:#25D366;
+background:#146d0e;
 color:white;
 padding:16px 26px;
 border-radius:10px;
@@ -106,7 +106,7 @@ box-shadow:0 20px 45px rgba(0,0,0,0.08);
 }
 
 .btn-wa{
-background:#25D366;
+background:#146d0e;
 color:white;
 padding:14px 24px;
 border-radius:10px;
@@ -197,5 +197,6 @@ nav a{display:block;margin:15px 0;}
 .menu-btn{display:block;}
 
 .clinic-card{grid-template-columns:1fr;padding:25px;}
+
 
 }
