@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dra. Jennifer Aldana Berezaga</title>
+
+<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- WHATSAPP FLOAT -->
+<a class="wa-float" href="https://wa.me/5493492257762?text=Hola,%20quisiera%20consultar%20por%20un%20turno" target="_blank">
+<svg viewBox="0 0 32 32" width="28" height="28" fill="white">
+<path d="M16 .4C7.3.4.4 7.3.4 16c0 2.8.7 5.5 2.1 7.9L.3 31.7l8-2.1c2.3 1.3 4.9 2 7.7 2h.1c8.7 0 15.6-6.9 15.6-15.6C31.7 7.3 24.8.4 16 .4z"/>
+</svg>
+</a>
+
+<header>
+
+<div class="logo">Dra. Jennifer Berezaga</div>
+
+<nav id="menu">
+<a href="#tratamientos">Tratamientos</a>
+<a href="#clinica">Consultorio</a>
+<a href="https://wa.me/5493492257762?text=Hola,%20quiero%20un%20turno" target="_blank">Turno</a>
+</nav>
+
+<div class="menu-btn" onclick="toggleMenu()">☰</div>
+
+</header>
+
+
+<!-- HERO -->
+<section class="hero reveal">
+
+<div class="hero-img">
+
+<img class="doctor"
+src="https://dentiva.com.ar/wp-content/uploads/2025/12/DRA-JENNIFER-ALDANA-BEREZAGA.webp">
+
+<p class="credenciales">
+M.P. 4034/01<br>
+Odontóloga · UNC
+</p>
+
+</div>
+
+
+<div class="hero-text">
+
+<h1>Odontología estética y restauradora en Rafaela</h1>
+
+<p class="intro">
+Soy odontóloga egresada de la Universidad Nacional de Córdoba. Brindo atención profesional, cercana y personalizada, priorizando la salud, la estética dental y la comodidad de cada paciente.
+</p>
+
+<a class="btn-wa hero-btn"
+href="https://wa.me/5493492257762?text=Hola,%20quisiera%20consultar%20por%20un%20turno"
+target="_blank">
+Pedir turno por WhatsApp
+</a>
+
+</div>
+
+</section>
+
+
+
+<!-- TRATAMIENTOS -->
+<section id="tratamientos" class="services reveal">
+
+<h2>Tratamientos</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>🦷 Limpieza profesional</h3>
+<p>Eliminación de sarro y placa bacteriana para mantener la salud dental.</p>
+</div>
+
+<div class="card">
+<h3>✨ Blanqueamiento dental</h3>
+<p>Tratamiento estético para mejorar el color de los dientes de forma segura.</p>
+</div>
+
+<div class="card">
+<h3>👑 Coronas dentales</h3>
+<p>Restauraciones diseñadas para recuperar función y estética.</p>
+</div>
+
+<div class="card">
+<h3>🔧 Incrustaciones</h3>
+<p>Soluciones restauradoras duraderas para dientes dañados.</p>
+</div>
+
+<div class="card">
+<h3>🚑 Urgencias odontológicas</h3>
+<p>Atención ante dolor, infecciones o situaciones inmediatas.</p>
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- POR QUE ELEGIR -->
+<section class="services reveal">
+
+<h2>¿Por qué elegirnos?</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Atención personalizada</h3>
+<p>Cada paciente recibe diagnóstico y tratamiento adaptado.</p>
+</div>
+
+<div class="card">
+<h3>Tecnología moderna</h3>
+<p>Equipamiento actualizado para mayor precisión y confort.</p>
+</div>
+
+<div class="card">
+<h3>Formación continua</h3>
+<p>Actualización permanente en estética dental y operatoria.</p>
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- CLINICA -->
+<section id="clinica" class="reveal">
+
+<div class="clinic-card">
+
+<div class="clinic-info">
+
+<h3>Dentiva Rafaela</h3>
+
+<p class="clinic-address">
+Cossettini 1064<br>
+Rafaela, Santa Fe
+</p>
+
+<div class="clinic-buttons">
+
+<a class="btn-wa"
+href="https://wa.me/5493492257762?text=Hola,%20quisiera%20consultar%20por%20un%20turno"
+target="_blank">
+Pedir turno
+</a>
+
+</div>
+
+<p class="clinic-hours">
+Atención con turno previo
+</p>
+
+</div>
+
+<div class="clinic-map">
+<iframe src="https://www.google.com/maps?q=Cossettini+1064+Rafaela+Santa+Fe&output=embed" loading="lazy"></iframe>
+</div>
+
+</div>
+
+</section>
+
+
+<footer>
+© 2026 Dra. Jennifer Berezaga · Rafaela, Santa Fe
+</footer>
+
+
+<script>
+
+function toggleMenu(){
+document.getElementById("menu").classList.toggle("open");
+}
+
+const reveals=document.querySelectorAll(".reveal");
+
+window.addEventListener("scroll",()=>{
+for(let el of reveals){
+let top=el.getBoundingClientRect().top;
+if(top<window.innerHeight-80){
+el.classList.add("show");
+}
+}
+});
+
+</script>
+
+</body>
+</html>
